@@ -1,6 +1,6 @@
-### Hi there 👋
+<!-- ### Hi there 👋
 
-Welcome to my mix of half-baked ideas!
+Welcome to my mix of half-baked ideas! -->
 
 <!--
 **mwood77/mwood77** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
