@@ -3,7 +3,7 @@ on:
   # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push: {branches: ["main"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -23,6 +23,7 @@ jobs:
           # LANGUAGES
           plugin_languages: yes
           plugin_languages_sections: most-used
+          plugin_languages_ignored: glsl
 
           # REPOSITORIES
           plugin_repositories: yes
